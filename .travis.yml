@@ -4,6 +4,7 @@ jobs:
 
 install:
     - npm cache clear
+    - rm -rf node_modules
     - npm install
 script:
     - npm run test
