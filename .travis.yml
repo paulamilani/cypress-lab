@@ -1,7 +1,7 @@
 language: node_js
 node_js:
 # version node project
-    - "18"
+    - "16"
 
 before_script:
     - echo 'npm install'
