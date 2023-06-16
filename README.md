@@ -1,6 +1,6 @@
 # Cypress
 
-## Projeto usando framework cypress para testes de interface.
+## Projeto usando framework cypress para testes de interface com travis para integração continua.
 
 ### Pré-requisitos:
 

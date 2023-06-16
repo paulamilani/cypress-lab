@@ -1,9 +1,10 @@
 language: node_js
 
 jobs:
-  fast_finish: true
 
 install:
+    - sudo npm cache clear
+    - sudo npm install -g node
     - npm install
 script:
     - npm run test
