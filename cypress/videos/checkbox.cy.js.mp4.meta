@@ -1,0 +1,11 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=-2146
+END=4831
+title=checkboxes checkbox one not checkd
+[CHAPTER]
+TIMEBASE=1/1000
+START=10843
+END=11874
+title=checkboxes checkbox two checked

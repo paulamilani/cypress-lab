@@ -1,11 +1,24 @@
 language: node_js
 node_js:
 # version node project
-    - "16"
+    - "18"
 
-before_script:
-    - echo 'npm install'
-    - npm install
+# if using Ubuntu 16 need this library
+addons:
+  apt:
+    packages:
+    - libgconf-2-4
+
+cache:
+  # cache both npm modules and Cypress binary
+  directories:
+    - ~/.npm
+    - ~/.cache
+  # install dependencies and check that Cypress can run
+  override:
+    - npm ci
+    - npm run cy:verify
+
 script:
     - echo 'tests run'
     - npm run test
