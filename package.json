@@ -1,0 +1,19 @@
+{
+  "name": "test-cypress-lab",
+  "version": "1.0.0",
+  "description": "## Projeto usando framework cypress para testes de interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "open": "npx cypress open"
+  },
+  "describe": {
+    "test": "Executa os testes em headless",
+    "open": "Abre a interface grafica do cypress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.14.0"
+  }
+}
