@@ -3,8 +3,8 @@ language: node_js
 jobs:
 
 install:
-    - sudo npm cache clear
-    - sudo npm install -g node
+    - npm cache clear
+    - npm install -g node
     - npm install
 script:
     - npm run test
