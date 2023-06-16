@@ -8,6 +8,11 @@ node
 
 ### Começando
 
+Instalação
+```
+npm install
+```
+
 Executar testes em background - console
 ```
 npm run test
@@ -18,4 +23,4 @@ Abrir ferramenta cypress
 npm run open 
 ```
 
-## Testes executados no http://the-internet.herokuapp.com/
+Testes executados no http://the-internet.herokuapp.com/
