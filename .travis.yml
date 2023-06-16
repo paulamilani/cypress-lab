@@ -5,6 +5,7 @@ jobs:
 install:
     - npm cache clear
     - rm -rf node_modules
+    - npm install node-sass@latest
     - npm install
 script:
     - npm run test
