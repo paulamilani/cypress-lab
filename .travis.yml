@@ -1,11 +1,14 @@
 language: node_js
+node_js:
+# version node project
+    - "18"
 
-jobs:
-
-install:
+before_script:
+    - echo 'npm install'
     - npm cache clear
     - rm -rf node_modules
     - npm install node-sass@latest
     - npm install
 script:
+    - echo 'tests run'
     - npm run test
